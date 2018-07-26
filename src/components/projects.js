@@ -15,14 +15,21 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://www.americangrapplingfederation.com/wp-content/uploads/2014/12/2017DallasSummerClassic.jpg) center / cover'}} >AGF  Dallas Summer Classic</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+               330+ 5 star reviews
+– 2 match guarantee for Kids
+– Tiny kids (4-6) compete for 1/2 price
+– Black belts compete for free
+– Large custom medals
+– Professional photos at every event
+– Huge competition mats (24′ x 24′)
+– Brackets published before the tournament
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <a href="https://www.americangrapplingfederation.com/"><Button colored>Register</Button> </a>
+              <a href="https://www.americangrapplingfederation.com/"><Button colored>More about this event</Button> </a>
+
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -86,10 +93,8 @@ class Projects extends Component {
     return(
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>React</Tab>
-          <Tab>Angular</Tab>
-          <Tab>VueJS</Tab>
-          <Tab>MongoDB</Tab>
+          <Tab>The DFW BJJ Scene HUb</Tab>
+      
         </Tabs>
 
 
