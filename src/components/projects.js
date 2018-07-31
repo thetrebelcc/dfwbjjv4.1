@@ -100,7 +100,7 @@ Doors Open @ 7:30am | Event Starts @ 9am
     return(
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>The DFW BJJ Scene HUb</Tab>
+          <Tab>The DFW BJJ Tournament Scene HUb</Tab>
       
         </Tabs>
 
