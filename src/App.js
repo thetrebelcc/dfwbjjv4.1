@@ -12,7 +12,7 @@ class App extends Component {
         <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">DFW-BJJ</Link>} scroll>
             <Navigation>
                 <Link to="/contact">Contact</Link>
-                <div>Seminars</div>
+                <Link to="/seminars">Seminars</Link>
                 <div>Featured gyms</div>
             </Navigation>
         </Header>
