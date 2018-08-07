@@ -17,19 +17,12 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://www.americangrapplingfederation.com/wp-content/uploads/2014/12/2017DallasSummerClassic.jpg) center / cover'}} >AGF  Dallas Summer Classic</CardTitle>
             <CardText>
-               330+ 5 star reviews
-– 2 match guarantee for Kids
-– Tiny kids (4-6) compete for 1/2 price
-– Black belts compete for free
-– Large custom medals
-– Professional photos at every event
-– Huge competition mats (24′ x 24′)
-– Brackets published before the tournament
+              
             </CardText>
             <CardActions border>
               <a href="https://www.americangrapplingfederation.com/"><Button colored>Register</Button> </a>
               <a href="https://www.americangrapplingfederation.com/"><Button colored>More about this event</Button> </a>
-
+            
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
             <div> Register before August 4th!!</div>
